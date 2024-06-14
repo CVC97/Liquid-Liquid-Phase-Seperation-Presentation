@@ -1,0 +1,27 @@
+/* create two-column slides */
+.container{
+    display: flex;
+}
+.left_col{
+    flex: 1;
+    margin-right: 5%;
+}
+.right_col{
+    flex: 1;
+    margin-left: 5%;
+}
+.col{
+    flex: 1;
+}
+
+.smaller_eq{
+    font-size: 28px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
